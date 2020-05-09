@@ -24,7 +24,7 @@ Veți fi evaluați individual în funcție de commit-uri în repository prin `gi
 ### 1. CRC HTTP service (5%)
 Folositi template-ul [crc_api.py](https://github.com/senisioi/tema4/blob/master/src/crc_api.py) pentru a crea un serviciu HTTP cu o metoda [POST](https://www.w3schools.com/tags/ref_httpmethods.asp) care are urmatoarea specificație:
 
-- primește un sir de octeți ca date
+- primește un sir de octeți
 - primii 4 octeți reprezintă polinomul pe maximum 32 de biți, unsigned long ('!L').
 - restul de octeți reprezintă mesajul pentru care trebuie calculat CRC după polinomul dat
 - returnează (!returnează, nu printează) calculul CRC in functie de polinomul dat
@@ -78,3 +78,4 @@ Urmăriți cursurile despre [Forwarding](https://github.com/senisioi/computer-ne
 - Routing Information Protocol
 - Open Shortest Path First
 - Border Gateway Protocol Routing
+for 
