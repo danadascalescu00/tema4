@@ -8,4 +8,4 @@ services:
         tty: true
         ports:
          - "8001:8001" # schimbati-le in functie de portul pe care il doriti deschis
-        #command: "bash -c python3 /elocal/src/crc_api.py" 
+        #command: bash -c "python3 /elocal/src/crc_api.py" 

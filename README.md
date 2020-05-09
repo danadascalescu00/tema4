@@ -1,29 +1,28 @@
-# Tema 3 
+# Tema 4
 
 ## Informații temă
 **Deadline**: **24 mai 2020** 
 
-
 Predarea soluției se va face într-un repository de github în două feluri: 
 
 1) adăugați sursele modificate sau folosite în directorul `src`; 
-2) modificați template-ul [Rezolvare.md](https://github.com/senisioi/tema3/blob/master/Rezolvare.md) și completați raportul cu cerințele de acolo.
-
-
+2) modificați template-ul [Rezolvare.md](https://github.com/senisioi/tema4/blob/master/Rezolvare.md) și completați raportul cu cerințele de acolo.
 
 Pentru a vă înscrie folosiți acest link: [lolo](https://lolo)
 Tema se va rezolva în echipe de maxim două persoane iar punctajul temei este 10% din nota finală.
 Veți fi evaluați individual în funcție de commit-uri în repository prin `git blame` și `git-quick-stats -a`. Doar utilizatorii care apar cu modificări în repository vor fi punctați (în funcție de modificările pe care le fac).
 
 ### Barem
-1. CRC HTTP service - 5%
-2. Protocoale de routare - 5%
+
+1. CRC HTTP service - 5% (predati URL cu serverul vostru care calculeaza CRC)
+2. Protocoale de routare - 5% (1000 de cuvinte care acopera principii de rutare)
 
 https://github.com/senisioi/computer-networks/tree/2020/curs#forwarding
 
+
 ## Cerințe temă 
 
-### 1. CRC HTTP service
+### 1. CRC HTTP service (5%)
 Folositi template-ul [crc_api.py](https://github.com/senisioi/tema4/blob/master/src/crc_api.py) pentru a crea un serviciu HTTP cu o metoda [POST](https://www.w3schools.com/tags/ref_httpmethods.asp) care are urmatoarea specificație:
 
 - primește un sir de octeți ca date
@@ -71,4 +70,12 @@ Executăm `docker-compose up -d` apoi `docker-compose exec crc_http bash -c 'pyt
 
 
 
-### 2.
+### 2. Protocoale de routare (5%)
+Urmăriți cursurile despre [Forwarding](https://github.com/senisioi/computer-networks/tree/2020/curs#forwarding) si [Rutare](https://github.com/senisioi/computer-networks/tree/2020/curs#routing) și scrieți o prezentare de maxim 800 de cuvinte în care acoperiți principiile și proprietățile următoarelor protocoale și concepte:
+
+- Forwarding vs. Routing
+- Link State Routing
+- Distance Vector Routing
+- Routing Information Protocol
+- Open Shortest Path First
+- Border Gateway Protocol Routing
