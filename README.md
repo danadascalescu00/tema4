@@ -65,7 +65,7 @@ copy to clipboard - tin apasat Shift, selectez, click dreapta copy
 
 ##### 1.2 Cum executăm scriptul din docker pe serverul AWS
 Clonăm repository cu tema4 pe care l-am primit. Modificăm [docker-compose.yml](https://github.com/senisioi/tema4/blob/master/docker-compose.yml) pentru containerul `crc_http` ca portul de pe host să fie 80.
-Executăm `docker-compose up -d` apoi `docker-compose exec crc_http bash -c 'python3 /elocal/src/simple_flask.py'`
+Executăm `docker-compose up -d` apoi `docker-compose exec crc_http bash -c 'python3 /elocal/src/crc_api.py'`
 
 
 
