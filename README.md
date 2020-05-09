@@ -1,4 +1,4 @@
-# Tema 4
+Tema 4
 
 ## Informații temă
 **Deadline**: **24 mai 2020** 
@@ -10,7 +10,7 @@ Predarea soluției se va face ca aplicatie server pe AWS si sursele într-un rep
 2) adăugați sursele modificate sau folosite în directorul `src`
 2) modificați template-ul [Rezolvare.md](https://github.com/senisioi/tema4/blob/master/Rezolvare.md) și completați raportul cu cerințele de acolo.
 
-Pentru a vă înscrie folosiți acest link: [lolo](https://lolo)
+Pentru a vă înscrie folosiți acest link: [https://classroom.github.com/g/HuS6dYEQ](https://classroom.github.com/g/HuS6dYEQ)
 Tema se va rezolva în echipe de maxim două persoane iar punctajul temei este 10% din nota finală.
 Veți fi evaluați individual în funcție de commit-uri în repository prin `git blame` și `git-quick-stats -a`. Doar utilizatorii care apar cu modificări în repository vor fi punctați (în funcție de modificările pe care le fac).
 
