@@ -15,7 +15,7 @@ Veți fi evaluați individual în funcție de commit-uri în repository prin `gi
 ### Barem
 
 1. CRC HTTP service - 5% (predati URL cu serverul vostru care calculeaza CRC)
-2. Protocoale de routare - 5% (1000 de cuvinte care acopera principii de rutare)
+2. Protocoale de routare - 5% (rezumat de maxim 800 de cuvinte în care acoperiți principii de rutare)
 
 https://github.com/senisioi/computer-networks/tree/2020/curs#forwarding
 
