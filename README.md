@@ -3,9 +3,11 @@
 ## Informații temă
 **Deadline**: **24 mai 2020** 
 
-Predarea soluției se va face într-un repository de github în două feluri: 
+Pentru tema va trebui sa folositi AWS. Daca ramaneti fara credits sau daca nu ati primit mail cu invite AWSEducate, va rog sa imi scrieti.
+Predarea soluției se va face ca aplicatie server pe AWS si sursele într-un repository de github: 
 
-1) adăugați sursele modificate sau folosite în directorul `src`; 
+1) urmariti [aici un tutorial](https://m.youtube.com/watch?v=MpBKali87YI) silent cum sa va configurati un server pe AWS si sa deschideti porturi
+2) adăugați sursele modificate sau folosite în directorul `src`
 2) modificați template-ul [Rezolvare.md](https://github.com/senisioi/tema4/blob/master/Rezolvare.md) și completați raportul cu cerințele de acolo.
 
 Pentru a vă înscrie folosiți acest link: [lolo](https://lolo)
@@ -17,9 +19,6 @@ Veți fi evaluați individual în funcție de commit-uri în repository prin `gi
 1. CRC HTTP service - 5% (predati URL cu serverul vostru care calculeaza CRC)
 2. Protocoale de routare - 5% (rezumat de maxim 800 de cuvinte în care acoperiți principii de rutare)
 
-https://github.com/senisioi/computer-networks/tree/2020/curs#forwarding
-
-
 ## Cerințe temă 
 
 ### 1. CRC HTTP service (5%)
@@ -28,7 +27,7 @@ Folositi template-ul [crc_api.py](https://github.com/senisioi/tema4/blob/master/
 - primește un sir de octeți ca date
 - primii 4 octeți reprezintă polinomul pe maximum 32 de biți, unsigned long ('!L').
 - restul de octeți reprezintă mesajul pentru care trebuie calculat CRC după polinomul dat
-- returnează (!returnează, nu printează) calculul CRC după polinomul dat
+- returnează (!returnează, nu printează) calculul CRC in functie de polinomul dat
 
 Dacă în scriptul simple_flask.py din capitolul2 evaluam conținutul json din request, aici vom extrage direct octeții din `request.data`.
 
@@ -71,7 +70,7 @@ Executăm `docker-compose up -d` apoi `docker-compose exec crc_http bash -c 'pyt
 
 
 ### 2. Protocoale de routare (5%)
-Urmăriți cursurile despre [Forwarding](https://github.com/senisioi/computer-networks/tree/2020/curs#forwarding) si [Rutare](https://github.com/senisioi/computer-networks/tree/2020/curs#routing) și scrieți o prezentare de maxim 800 de cuvinte în care acoperiți principiile și proprietățile următoarelor protocoale și concepte:
+Urmăriți cursurile despre [Forwarding](https://github.com/senisioi/computer-networks/tree/2020/curs#forwarding) si [Rutare](https://github.com/senisioi/computer-networks/tree/2020/curs#routing) și scrieți o prezentare de 800 de cuvinte în care acoperiți principiile și proprietățile următoarelor protocoale și concepte:
 
 - Forwarding vs. Routing
 - Link State Routing
