@@ -18,7 +18,7 @@ Veți fi evaluați individual în funcție de commit-uri în repository prin `gi
 ### Barem
 
 1. CRC HTTP service - 5% (predati URL cu serverul vostru care calculeaza CRC)
-2. Protocoale de routare - 5% (rezumat de 800 de cuvinte în care acoperiți principii de rutare)
+2. Protocoale de routare - 5% (rezumat de 666 de cuvinte în care acoperiți principii de rutare)
 
 ## Cerințe temă 
 
@@ -71,7 +71,7 @@ Executăm `docker-compose up -d` apoi `docker-compose exec crc_http bash -c 'pyt
 
 
 ### 2. Protocoale de routare (5%)
-Urmăriți cursurile despre [Forwarding](https://github.com/senisioi/computer-networks/tree/2020/curs#forwarding) si [Rutare](https://github.com/senisioi/computer-networks/tree/2020/curs#routing) și scrieți o prezentare de 800 de cuvinte în care acoperiți principiile și proprietățile următoarelor protocoale și concepte:
+Urmăriți cursurile despre [Forwarding](https://github.com/senisioi/computer-networks/tree/2020/curs#forwarding) si [Rutare](https://github.com/senisioi/computer-networks/tree/2020/curs#routing) și scrieți o prezentare de 666 de cuvinte în care acoperiți principiile și proprietățile următoarelor protocoale și concepte:
 
 - Forwarding vs. Routing
 - Link State Routing
