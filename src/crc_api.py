@@ -12,6 +12,20 @@ def hello():
     '''
     return "CRC API de la echipa XYXYYXY!"
 
+def xor(a, b): 
+   
+    # initializam rezultatul
+    result = [] 
+
+    # pentru fiecare bit in range-ul dat de lungimea polinomului
+    for i in range(1, len(b)): 
+        if a[i] == b[i]: # daca sunt egali rezultatul e 0
+            result.append('0') 
+        else: # daca sunt diferiti, rezultatul e 1
+            result.append('1') 
+
+    return ''.join(result) 
+
 
 def calculeaza_CRC(polinom, date):
     '''
